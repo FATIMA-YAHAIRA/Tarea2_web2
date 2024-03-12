@@ -1,0 +1,95 @@
+.general
+{
+    display: flex;
+    flex-grow: 3;
+}
+.principal
+{
+ background-color: blueviolet;
+ padding: 10px;
+ width: 250px;
+ height: 500px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: space-around;
+ 
+}
+.caja
+{
+    background-color: aqua;
+    margin: 5px;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    /*display: inline-block;*/
+    flex-grow: 3;
+}
+
+.principal2
+{
+ background-color: rgb(43, 226, 73);
+ padding: 10px;
+ width: 250px;
+ height: 500px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: space-between;
+ 
+}
+
+.caja1
+{
+    background-color: rgb(255, 0, 247);
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    /*display: inline-block;*/
+    flex-grow: 2;
+    order: 3;
+   
+}
+
+.principal3
+{
+ background-color: rgb(226, 113, 43);
+ padding: 10px;
+ width: 250px;
+ height: 500px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: space-between;
+ 
+}
+
+.caja2
+{
+    background-color: rgb(255, 251, 0);
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    /*display: inline-block;*/
+    flex-grow: 5;
+}
+.caja3
+{
+    background-color: rgb(255, 251, 0);
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    /*display: inline-block;*/
+    flex-grow: 2;
+}
